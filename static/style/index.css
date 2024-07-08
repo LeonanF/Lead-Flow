@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.action-btn{
+    transition: 500ms;
+    background-image: linear-gradient(to right, #0077B6, #00B4D8);
+    padding: clamp(10px, 5%, 50px);
+    width: clamp(120px, 20vw, 400px);
+    height: clamp(10px, 3vh, 100px);
+    line-height: 0;
+    text-shadow: 1px 1px 1px black;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+.action-btn:hover{
+    filter: brightness(1.2);
+}
+
+.action-btn:active{
+    transform: scale(0.9);
+}
+
+.icons{
+    width: 50px;
+}
+
+.figures{
+    width: 300px;
+}
+.benefit-card{
+    background-color: white;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+}
+
+.explanation-card-container
+{
+    width: clamp(300px, 75vw, 1200px);
+}
+
+.explanation-card{
+    background: rgba(249, 249, 249, 0.05);
+    border: 1.259px solid rgba(255, 255, 255, 0.20);
+    border-radius: 15px;
+}
