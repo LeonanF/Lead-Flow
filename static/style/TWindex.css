@@ -554,6 +554,14 @@ video {
   --tw-contain-style:  ;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -599,6 +607,10 @@ video {
   width: clamp(200px, 90%, 400px);
 }
 
+.w-1\/4 {
+  width: 25%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -615,14 +627,14 @@ video {
   gap: 2rem;
 }
 
-.bg-\[\#003566\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 53 102 / var(--tw-bg-opacity));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-12 {
@@ -651,7 +663,7 @@ video {
 }
 
 .text-h2-responsive {
-  font-size: clamp(0.8rem,2vw,1.25rem);
+  font-size: clamp(0.5rem,0.8vw,1rem);
 }
 
 .text-p-responsive {
@@ -674,6 +686,16 @@ video {
   text-transform: uppercase;
 }
 
+.text-\[\#000814\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 8 20 / var(--tw-text-opacity));
+}
+
+.text-\[\#001D3D\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 29 61 / var(--tw-text-opacity));
+}
+
 .text-\[\#CCA000\] {
   --tw-text-opacity: 1;
   color: rgb(204 160 0 / var(--tw-text-opacity));
@@ -691,7 +713,7 @@ video {
 
 .action-btn{
   transition: 500ms;
-  background-image: linear-gradient(to right, #CCA000, #F5CC00);
+  background-image: linear-gradient(to right, #001D3D, #003566);
   padding: clamp(10px, 5%, 50px);
   width: clamp(200px, 20vw, 400px);
   height: clamp(25px, 5vh, 100px);
@@ -699,7 +721,7 @@ video {
   text-shadow: 1px 1px 1px #003566;
   font-style: italic;
   border-radius: 5px;
-  color: #000814;
+  color: white;
 }
 
 .action-btn:hover{
@@ -719,9 +741,10 @@ video {
 }
 
 .benefit-card{
-  background-color: #CCA000;
+  background-color: white;
   box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.10);
   border-radius: 10px;
+  color: black;
 }
 
 .explanation-card-container
