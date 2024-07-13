@@ -566,6 +566,11 @@ video {
   height: 100%;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .min-h-\[75vh\] {
   min-height: 75vh;
 }
@@ -590,6 +595,15 @@ video {
   width: clamp(200px, 90%, 400px);
 }
 
+.w-min {
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -606,12 +620,26 @@ video {
   gap: 2rem;
 }
 
-.bg-\[\#CAF0F8\] {
+.gap-16 {
+  gap: 4rem;
+}
+
+.bg-\[\#003566\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(202 240 248 / var(--tw-bg-opacity));
+  background-color: rgb(0 53 102 / var(--tw-bg-opacity));
 }
 
 .bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#000814\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 8 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[black\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
@@ -665,14 +693,14 @@ video {
   text-transform: uppercase;
 }
 
-.text-\[\#0077B6\] {
+.text-\[\#CCA000\] {
   --tw-text-opacity: 1;
-  color: rgb(0 119 182 / var(--tw-text-opacity));
+  color: rgb(204 160 0 / var(--tw-text-opacity));
 }
 
-.text-\[\#90E0EF\] {
+.text-\[\#F5CC00\] {
   --tw-text-opacity: 1;
-  color: rgb(144 224 239 / var(--tw-text-opacity));
+  color: rgb(245 204 0 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -682,14 +710,15 @@ video {
 
 .action-btn{
   transition: 500ms;
-  background-image: linear-gradient(to right, #0077B6, #00B4D8);
+  background-image: linear-gradient(to right, #CCA000, #F5CC00);
   padding: clamp(10px, 5%, 50px);
   width: clamp(200px, 20vw, 400px);
   height: clamp(25px, 5vh, 100px);
   line-height: 0;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px #003566;
   font-style: italic;
   border-radius: 5px;
+  color: #000814;
 }
 
 .action-btn:hover{
@@ -709,7 +738,7 @@ video {
 }
 
 .benefit-card{
-  background-color: white;
+  background-color: #CCA000;
   box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.10);
   border-radius: 10px;
 }
@@ -732,5 +761,9 @@ video {
 
   .xl\:flex-row {
     flex-direction: row;
+  }
+
+  .xl\:items-center {
+    align-items: center;
   }
 }
