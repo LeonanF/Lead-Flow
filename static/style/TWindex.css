@@ -554,10 +554,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
@@ -605,10 +601,6 @@ video {
 
 .w-text-responsive {
   width: clamp(200px, 90%, 400px);
-}
-
-.w-1\/4 {
-  width: 25%;
 }
 
 .flex-col {
@@ -691,19 +683,9 @@ video {
   color: rgb(0 8 20 / var(--tw-text-opacity));
 }
 
-.text-\[\#001D3D\] {
+.text-\[\#00A7E1\] {
   --tw-text-opacity: 1;
-  color: rgb(0 29 61 / var(--tw-text-opacity));
-}
-
-.text-\[\#CCA000\] {
-  --tw-text-opacity: 1;
-  color: rgb(204 160 0 / var(--tw-text-opacity));
-}
-
-.text-\[\#F5CC00\] {
-  --tw-text-opacity: 1;
-  color: rgb(245 204 0 / var(--tw-text-opacity));
+  color: rgb(0 167 225 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -711,14 +693,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#003566\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 53 102 / var(--tw-text-opacity));
-}
-
 .action-btn{
   transition: 500ms;
-  background-image: linear-gradient(to right, #001D3D, #003566);
+  background-image: linear-gradient(to right, #003566, #00A7E1);
   padding: clamp(10px, 5%, 50px);
   width: clamp(200px, 20vw, 400px);
   height: clamp(25px, 5vh, 100px);

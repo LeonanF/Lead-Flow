@@ -4,7 +4,7 @@
 
 .action-btn{
     transition: 500ms;
-    background-image: linear-gradient(to right, #001D3D, #003566);
+    background-image: linear-gradient(to right, #003566, #00A7E1);
     padding: clamp(10px, 5%, 50px);
     width: clamp(200px, 20vw, 400px);
     height: clamp(25px, 5vh, 100px);
