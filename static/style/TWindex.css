@@ -554,6 +554,11 @@ video {
   --tw-contain-style:  ;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
@@ -593,6 +598,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-icons-responsive {
+  width: clamp(80px, 35%, 300px);
 }
 
 .w-img-responsive {
@@ -655,7 +664,11 @@ video {
 }
 
 .text-h2-responsive {
-  font-size: clamp(0.5rem,0.8vw,1rem);
+  font-size: clamp(0.8rem,2vw,1.25rem);
+}
+
+.text-h3-responsive {
+  font-size: clamp(0.7rem,1vw,1rem);
 }
 
 .text-p-responsive {
