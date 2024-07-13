@@ -700,7 +700,7 @@ video {
   width: clamp(200px, 20vw, 400px);
   height: clamp(25px, 5vh, 100px);
   line-height: 0;
-  text-shadow: 1px 1px 1px #003566;
+  text-shadow: 1px 1px 1px black;
   font-style: italic;
   border-radius: 5px;
   color: white;
