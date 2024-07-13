@@ -599,11 +599,6 @@ video {
   width: clamp(200px, 90%, 400px);
 }
 
-.w-max {
-  width: -moz-max-content;
-  width: max-content;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -643,8 +638,8 @@ video {
   text-align: center;
 }
 
-.font-playwrite {
-  font-family: Playwrite DE Grund, cursive;
+.font-main {
+  font-family: Roboto, sans-serif;
 }
 
 .text-btn-responsive {
